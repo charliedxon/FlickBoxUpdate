@@ -40,7 +40,7 @@ export default function Register() {
     }
     
     if (isNaN(formData.age) || parseInt(formData.age) < 13) {
-      setError("You must be at least 13 years old");
+      setError("You must be at least 20 years old");
       return;
     }
     
